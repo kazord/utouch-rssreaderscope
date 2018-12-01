@@ -1,0 +1,21 @@
+
+[feedly]
+type = boolean
+defaultValue = true
+_displayName = Search keyword on Feedly.com
+
+[readability]
+type = boolean
+defaultValue = false
+_displayName = Direct full content fetching in the News scope (using mercury.postlight.com)
+
+[feed_manage_display]
+type = list
+defaultValue = 1
+_displayValues = Hide;Home;In a departement
+_displayName = Feed management section location
+
+[articles_limit]
+type = number
+defaultValue = 15
+_displayName = Max article number for each feed

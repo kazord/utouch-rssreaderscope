@@ -1,0 +1,4 @@
+#exclude build directory
+build/
+#exclude apikey file
+src/apikey.h

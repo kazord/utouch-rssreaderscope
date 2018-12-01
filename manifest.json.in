@@ -1,0 +1,15 @@
+{
+    "architecture": "@CLICK_ARCH@",
+    "description": "The scope you need for RSS Reading",
+    "framework": "ubuntu-sdk-16.04",
+    "hooks": {
+        "rssreaderscope": {
+            "apparmor": "rssreaderscope.apparmor",
+            "scope": "rssreaderscope"
+        }
+    },
+    "maintainer": "kazord <kazord@gmail.com>",
+    "name": "rssreaderscope.kazord",
+    "title": "rssreaderscope",
+    "version": "0.7.1"
+}

@@ -1,0 +1,10 @@
+[ScopeConfig]
+_DisplayName=RSSReader Scope
+_Description=A 'simple' scope to view RSS
+Art=screenshot.png
+Author=Kazord
+Icon=icon.png
+Keywords=news.headlines
+
+[Appearance]
+PageHeader.Logo=logo.png
