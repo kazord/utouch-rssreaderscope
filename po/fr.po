@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-01 18:11+0000\n"
+"PO-Revision-Date: 2019-08-15 14:38+0000\n"
+"Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../src/preview/feedsearch.cpp:39
+msgid "Subscribers"
+msgstr "Abonné(e)s"
+
+#: ../src/preview/feedsearch.cpp:40 ../src/types.cpp:89
+msgid "Feed url"
+msgstr "Lien du flux"
+
+#: ../src/preview/feedsearch.cpp:52 ../src/preview/feedconfig.cpp:88
+msgid "Preview"
+msgstr "Aperçu"
+
+#: ../src/preview/feedsearch.cpp:56
+msgid "Autoconfigure+Add"
+msgstr "Ajouter"
+
+#: ../src/preview/feedsearch.cpp:60
+msgid "Browse source"
+msgstr "Voir la source"
+
+#: ../src/preview/feedmanage.cpp:68 ../src/preview/feedconfig.cpp:52
+msgid ""
+"This section let you improve the feed result by modifying node names or node "
+"content formats to the correct value (autodetection isn't perfect). Orange "
+"background button, on the right, are current value"
+msgstr ""
+"Cette section vous permet d'améliorer le flux résultant en modifiant les noms des nœuds ou les "
+"formats de contenu des nœuds à la valeur correcte (la détection automatique est imparfaite). Le bouton "
+"à fond orange à droite correspond à la valeur actuelle"
+
+#: ../src/preview/feedmanage.cpp:70 ../src/preview/feedconfig.cpp:54
+msgid "Color"
+msgstr "Couleur"
+
+#: ../src/preview/feedmanage.cpp:70 ../src/preview/feedconfig.cpp:54
+msgid "current"
+msgstr "actuelle"
+
+#: ../src/preview/feedmanage.cpp:70 ../src/preview/feedconfig.cpp:54
+msgid "Apply to title, use color name or #xxxxxx"
+msgstr "s'applique aux titres, utilisez un nom de couleur ou #xxxxxx"
+
+#: ../src/preview/feedmanage.cpp:72 ../src/preview/feedconfig.cpp:56
+msgid "<b>Item :</b> Container for one article inside the feed"
+msgstr "<b>Élément :</b> conteneur pour un article au sein du flux"
+
+#: ../src/preview/feedmanage.cpp:74 ../src/preview/feedconfig.cpp:58
+msgid "<b>Link :</b> Url of the article"
+msgstr "<b>Lien :</b> Lien de l'article"
+
+#: ../src/preview/feedmanage.cpp:76 ../src/preview/feedconfig.cpp:60
+msgid "<b>Author :</b> Should contains the source/writer"
+msgstr "<b>Auteur(e) :</b> doit contenir la source ou l'auteur(e)"
+
+#: ../src/preview/feedmanage.cpp:78 ../src/preview/feedconfig.cpp:62
+msgid "<b>Category :</b> For filtering"
+msgstr "<b>Catégorie :</b> pour le filtrage"
+
+#: ../src/preview/feedmanage.cpp:80 ../src/preview/feedconfig.cpp:64
+msgid "<b>Title</b>"
+msgstr "<b>Titre</b>"
+
+#: ../src/preview/feedmanage.cpp:82 ../src/preview/feedconfig.cpp:66
+msgid "<b>Description :</b> Description of the article"
+msgstr "<b>Description :</b> description de l'article"
+
+#: ../src/preview/feedmanage.cpp:84 ../src/preview/feedconfig.cpp:68
+msgid ""
+"<b>Description - Content :</b> How should be handle description content, if "
+"html should be unescape (ex: from &amp;lt; to &lt;) or fully download"
+msgstr ""
+"<b>Description - Contenu :</b> comment doit être éré le contenu de la description content, si le "
+"HTML doit être non protégé (ex : de &amp;lt; à &lt;) ou totallement téléchargé"
+
+#: ../src/preview/feedmanage.cpp:86 ../src/preview/feedconfig.cpp:70
+msgid ""
+"<b>Date :</b> Don't forget to select the right date format, it's needed "
+"ordering"
+msgstr ""
+"<b>Date :</b> n'oubliez pas de sélectionner le bon format de date, cela est "
+"nécessaire au tri"
+
+#: ../src/preview/feedmanage.cpp:88 ../src/preview/feedconfig.cpp:72
+msgid "<b>Multimedia :</b> Image or music"
+msgstr "<b>Multimédia :</b> image ou musique"
+
+#: ../src/preview/feedmanage.cpp:99
+msgid "Remove"
+msgstr "Supprimer"
+
+#: ../src/preview/feedmanage.cpp:103
+msgid "Autoreconfigure"
+msgstr "Reconfigurer"
+
+#: ../src/preview/feedconfig.cpp:84
+msgid "Add to home"
+msgstr "Ajouter à l'accueil"
+
+#: ../src/preview/message.cpp:44
+msgid "Ok"
+msgstr "Valider"
+
+#: ../src/queries/home.cpp:58
+msgid "Home"
+msgstr "Accueil"
+
+#: ../src/queries/home.cpp:61
+msgid "Only "
+msgstr "Seulement"
+
+#: ../src/queries/home.cpp:66 ../src/queries/home.cpp:84
+msgid "Feed management"
+msgstr "Gestion des flux"
+
+#: ../src/queries/home.cpp:92
+msgid "Use search tools to find new RSS feed or paste his URL"
+msgstr "Utilisez des outils de recherche pour trouver de nouveaux flux RSS ou copiez son lien"
+
+#: ../src/queries/home.cpp:123
+msgid "Articles"
+msgstr "Articles"
+
+#: ../src/queries/home.cpp:157 ../src/queries/feedpreview.cpp:145
+msgid " by "
+msgstr " par "
+
+#: ../src/queries/importOPML.cpp:56 ../src/queries/feedly.cpp:80
+#, c-format
+msgid "1 feed found"
+msgid_plural "%d feeds found"
+msgstr[0] "1 flux trouvé"
+msgstr[1] "%d flux trouvés"
+
+#: ../src/queries/feedpreview.cpp:92
+msgid "No articles found"
+msgstr "Aucun article trouvé"
+
+#: ../src/types.cpp:88
+msgid "Feed id"
+msgstr "Identifiant du flux"
+
+#: ../src/types.cpp:90
+msgid "Main tag"
+msgstr "Mot-clé principal"
+
+#: ../src/types.cpp:91
+msgid "Item tag"
+msgstr "Mot-clé de l'élément"
+
+#: ../src/scope.cpp:369
+msgid "Removing feed succeed"
+msgstr "La suppression du flux a réussi"
+
+#: ../src/scope.cpp:371
+msgid "Removing feed failed"
+msgstr "La suppression du flux a échoué"
+
+#: ../src/scope.cpp:401
+msgid "Add feed succeed"
+msgstr "L'ajout du flux a réussi"
+
+#: ../src/scope.cpp:403
+msgid "Add feed failed"
+msgstr "L'ajout du flux a échoué"
